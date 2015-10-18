@@ -15,7 +15,7 @@ For the midterm, translate your About Me mockup into a web page.
   * Under the Students section, for _your_ card, add the link to your live About Me page where indicated so that the Learn More link points to your About Me page.
   * Provide a 300 x 250 image that more suitably represents you or your About Me page to replace the placeholder image on your student card. Update the image path accordingly.
 * Your web page must be live no later than noon on Monday, Nov. 2.  
-* Tips: You may want to tweak your mockup so you don't have sloppy measurements like 99.08931px. Standardize your color palette so you don't have several different values of the same color that look visually very similar.  
+* Tips: You may want to tweak your mockup so you don't have crazy measurements like 99.08931px. Standardize your color palette so you don't have several different values of the same color that look visually very similar.  
 
 
 ## Midterm Presentation  
