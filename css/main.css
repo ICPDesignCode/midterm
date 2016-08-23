@@ -19,9 +19,8 @@ h2 {
   text-transform: uppercase;
   width: 940px;
   margin: 90px auto;
-  padding: 0 10px;
 }
-h3 {
+h3, h4 {
   font-weight: 600;
   font-size: 18px;
   line-height: 24px;
@@ -31,6 +30,9 @@ p {
   font-size: 14px;
   margin: 0;
   padding: 0;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 /*header h3 {
   font-size: 30px;
@@ -40,29 +42,29 @@ p {
 }*/
 header {
   min-height: 600px;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
-  padding-bottom: 120px;
+  padding: 120px 10px 60px 10px;
 }
-section {
-  width: 960px;
+section, footer {
+  max-width: 960px;
   margin: 0 auto;
+  padding: 0 20px;
 }
-header {
-  padding-top: 120px;
+footer {
+
+}
+address {
+
 }
 header h1 {
   margin-bottom: 60px;
-  padding: 0 10px;
 }
 header p {
-  font-size: 36px;
-  line-height: 46px;
-  font: 400 52px/60px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: 400 48px/54px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   letter-spacing: -.03em;
   /*font: 36px/46px 'Crimson Text', Georgia, serif;*/
   max-width: 620px;
-  padding: 0 10px;
 }
 .program-info p {
   font: 30px/36px 'Crimson Text', Georgia, serif;
@@ -71,7 +73,7 @@ header p {
   margin-left: 170px;
 }
 .program-info h3 {
-  color: #8ba6ca;
+  color: #9bdaf1;
   max-width: 300px;
 }
 /* Structure */
@@ -88,6 +90,24 @@ header p {
 }
 .short-divider {
   width: 60px;
-  border-top: 2px solid #000;
+  border-top: 2px solid #9bdaf1;
   margin: 60px 0 60px 170px;
+}
+
+
+@media (max-width: 800px) {
+  header, section, footer {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  header p {
+    font: 400 36px/42px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    letter-spacing: 0;
+  }
+  .program-info p {
+    margin-left: 0;
+  }
+  .short-divider {
+    margin-left: 0;
+  }
 }
