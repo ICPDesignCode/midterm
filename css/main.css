@@ -2,14 +2,14 @@ body {
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url(../images/robot.jpg) no-repeat center top fixed;
+  background: url(../images/tree-bg.jpg) no-repeat center -500px fixed;
 }
 h1 {
-  font-size: 90px;
-  line-height: 74px;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  line-height: 60px;
   text-transform: uppercase;
   letter-spacing: -4px;
-  width: 380px;
   margin: 0;
   padding: 0;
 }
@@ -24,6 +24,7 @@ h2 {
 h3 {
   font-weight: 600;
   font-size: 18px;
+  line-height: 24px;
   margin: 0;
 }
 p {
@@ -31,96 +32,59 @@ p {
   margin: 0;
   padding: 0;
 }
-header h3 {
+/*header h3 {
   font-size: 30px;
   font-weight: 300;
   text-transform: uppercase;
   padding: 218px 0 36px 0;
+}*/
+header {
+  min-height: 600px;
+  width: 960px;
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
+section {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  padding-top: 120px;
+}
+header h1 {
+  margin-bottom: 60px;
+  padding: 0 10px;
+}
+header p {
+  font-size: 36px;
+  line-height: 46px;
+  font: 400 52px/60px 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -.03em;
+  /*font: 36px/46px 'Crimson Text', Georgia, serif;*/
+  max-width: 620px;
+  padding: 0 10px;
 }
 .program-info p {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-style: italic;
-  font-size: 34px;
-  line-height: 49px;
-  width: 620px;
-  margin: 60px auto;
-}
-.program-info p a {
-  color: #fbb;
-  text-decoration: none;
-  border-bottom: 1px dotted #fbb;
-}
-.program-info abbr {
-  font-family: 'Playfair Display SC', serif;
-  font-style: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0 10px 120px;
-  margin: 0 auto;
-  width: 960px;
-  height: auto;
-  overflow: hidden;
-}
-li {
-  width: 298px;
-  height: 500px;
-  background-color: #fff;
-  border: 1px solid #d3ded9;
-  float: left;
-  margin: 10px;
-  overflow: hidden;
-}
-li img {
-  width: 300px;
-  height: 250px;
-}
-li h3 {
-  padding: 60px 70px 26px 70px;
-}
-li p {
-  margin: 0 70px 20px 70px;
-}
-li p a {
-  text-decoration: none;
-  color: #f33;
-}
-address {
-  font-size: 16px;
-  line-height: 30px;
-  font-style: normal;
+  font: 30px/36px 'Crimson Text', Georgia, serif;
   color: #fff;
+  max-width: 640px;
+  margin-left: 170px;
 }
-address h3 {
-  font-size: 16px;
-  color: #000;
-  margin-bottom: 30px;
+.program-info h3 {
+  color: #8ba6ca;
+  max-width: 300px;
 }
-.de-emphasize {
-  font-weight: 300;
-  color: #fff;
-}
-
 /* Structure */
 .container-fluid {
   width: 100%;
   height: auto;
 }
 .hero {
-  background: transparent url(../images/tile.gif) repeat;
+  background: transparent url(../images/tile-blue.png) repeat;
 }
 .program-info {
-  background-color: #f33;
+  background-color: #112e51;
   padding: 60px 0;
-}
-header {
-  height: 600px;
-  width: 960px;
-  margin: 0 auto;
-}
-section {
-  width: 960px;
-  margin: 0 auto;
 }
 .short-divider {
   width: 60px;
