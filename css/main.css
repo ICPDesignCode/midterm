@@ -5,7 +5,7 @@ body {
   background: url('../images/MiroMatrix  Still 003.png') center top no-repeat fixed;
 }
 h1 {
-  color: #000000;
+  color: #FFF;
   font-size: 70px;
   font-weight: 800;
   /*line-height: 1.325;*/
@@ -31,7 +31,8 @@ h1.big {
 }
 h1 em {
   display: block;
-  color: #D43900;
+  color: #000;
+  /*color: #046B99;*/
   font-style: normal;
 }
 h2 {
@@ -72,7 +73,7 @@ h2 {
 }*/
 header .logo {
   height: 40px;
-  padding: 30px 0 200px;
+  padding: 30px 0 100px;
 }
 /*.hero .content {
   background-color: rgba(255,255,255,.6);
@@ -124,11 +125,9 @@ p {
 }
 
 .program-info p {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-style: italic;
-  font-size: 34px;
-  line-height: 49px;
+  font: 600 30px/40px 'Work Sans', 'Helvetica Neue', Arial, sans-serif;
   width: 620px;
+  letter-spacing: -.005em;
   margin: 60px auto;
 }
 .program-info p a {
@@ -144,7 +143,7 @@ ul {
   list-style-type: none;
   padding: 0 10px 120px;
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
   height: auto;
   overflow: hidden;
 }
@@ -162,25 +161,33 @@ li img {
   height: 250px;
 }
 li h3 {
-  padding: 60px 70px 26px 70px;
+  padding: 30px 50px 0 50px;
+  height: 40px;
 }
 li p {
-  margin: 0 70px 20px 70px;
+  margin: 0 50px 20px 34px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding-left: 16px;
 }
 li p a {
   text-decoration: none;
-  color: #f33;
+  color: #046b99;
+}
+li p a::before {
+  content: "\2192  ";
+  margin-left: -16px;
 }
 address {
   font-size: 16px;
   line-height: 30px;
   font-style: normal;
-  color: #fff;
+  /*color: #fff;*/
 }
 address h3 {
   font-size: 16px;
   color: #000;
-  margin-bottom: 30px;
 }
 .de-emphasize {
   font-weight: 300;
@@ -200,15 +207,15 @@ address h3 {
 .program-info {
   background-color: #02bfe7;
   padding: 60px 0;
-  color: #184253;
+  color: #00202A;
 }
 header {
-  height: 600px;
+  height: 570px;
   width: 960px;
   margin: 0 auto;
 }
 section {
-  width: 960px;
+  max-width: 980px;
   margin: 0 auto;
 }
 section.three-column {
@@ -231,7 +238,7 @@ section.three-column .col:after {
 }
 .short-divider {
   width: 60px;
-  border-top: 2px solid #000;
+  border-top: 1px solid #fff;
   margin: 60px 0 60px 170px;
 }
 /* colors */
