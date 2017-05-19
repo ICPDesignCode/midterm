@@ -6,12 +6,12 @@ body {
 }
 h1 {
   color: #000000;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 1.325;
   /*text-transform: uppercase;*/
   letter-spacing: -.025em;
-  width: 50%;
+  width: 75%;
   margin: 0;
 }
 h1 .highlight {
@@ -21,10 +21,21 @@ h1 .highlight {
 h2 {
   font-weight: 700;
   font-size: 30px;
-  text-transform: uppercase;
+  /*text-transform: uppercase;
   width: 940px;
   margin: 90px auto;
-  padding: 0 10px;
+  padding: 0 10px;*/
+}
+.three-column .col h2 {
+  font-weight: 600;
+  font-size: 18px;
+  height: 45px;
+}
+.three-column .col p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-right: 20px;
 }
 /*h1.eyebrow, h3 {
   font-size: 18px;
@@ -38,9 +49,9 @@ h2 {
   text-transform: uppercase;
   padding: 218px 0 36px 0;
 }*/
-header {
+/*header {
   position: relative;
-}
+}*/
 header .logo {
   height: 40px;
   padding: 30px 0 60px;
@@ -57,7 +68,7 @@ header .logo {
   padding: 10px 25px 10px 20px;
   font: 600 1.25em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #fdb81e;
-  border: 2px solid #fdb81e;
+  /*border: 2px solid #fdb81e;*/
   display: inline-block;
   text-align: center;
   /*border-radius: 36px;*/
@@ -142,13 +153,14 @@ address h3 {
 .container-fluid {
   width: 100%;
   height: auto;
+  overflow: hidden;
+  clear: both;
 }
 .hero {
   background: transparent url(../images/tile.gif) repeat;
 }
 .program-info {
-  background-color: #D1E4EC;
-  /*background-color: #02bfe7;*/
+  background-color: #02bfe7;
   padding: 60px 0;
   color: #184253;
 }
@@ -161,8 +173,30 @@ section {
   width: 960px;
   margin: 0 auto;
 }
+section.three-column {
+  /*display: block;*/
+  padding: 30px 0;
+  overflow: hidden;
+  height: auto;
+}
+
+section.three-column .col {
+  width: 300px;
+  padding-right: 20px;
+  padding-bottom: 60px;
+  float: left;
+}
+section.three-column .col:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .short-divider {
   width: 60px;
   border-top: 2px solid #000;
   margin: 60px 0 60px 170px;
+}
+/* colors */
+.bg-color {
+  background-color: #D1E4EC;
 }
