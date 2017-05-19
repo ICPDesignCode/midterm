@@ -6,7 +6,7 @@ body {
 }
 h1 {
   color: #000000;
-  font-size: 76px;
+  font-size: 70px;
   font-weight: 800;
   /*line-height: 1.325;*/
   line-height: .8625;
@@ -31,7 +31,7 @@ h1.big {
 }
 h1 em {
   display: block;
-  color: #981b1e;
+  color: #D43900;
   font-style: normal;
 }
 h2 {
@@ -45,12 +45,14 @@ h2 {
 .three-column .col h2 {
   font-weight: 600;
   font-size: 18px;
-  height: 45px;
+  line-height: 1.325;
+  height: 50px;
+  letter-spacing: -.02em;
 }
 .three-column .col p {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.5;
+  line-height: 1.625;
   padding-right: 20px;
 }
 /*h1.eyebrow, h3 {
@@ -95,17 +97,25 @@ header .logo {
 .hero .button {
   padding: 10px 25px 10px 20px;
   font: 600 1.5em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #fdb81e;
+  background-color: #fff039;
   display: inline-block;
   text-align: center;
-  margin: 20px 0 0;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  margin: 20px 0;
 }
 .hero .button .subtext {
   display: block;
-  font: 400 .625em/1.2 'Overpass Mono', monospace;
+  font: 400 14px/1.5 'Overpass Mono', monospace;
+}
+.col .button {
+  padding: 10px 20px;
+  margin: 30px 0;
+  border: 1px solid #000;
+  font: 400 12px/20px 'Overpass Mono', monospace;
+  display: inline-block;
+}
+.col .button::before {
+  content: "\2192";
+  font-family: 'Work Sans';
 }
 p {
   font-size: 14px;
@@ -196,7 +206,6 @@ header {
   height: 600px;
   width: 960px;
   margin: 0 auto;
-  position: relative;
 }
 section {
   width: 960px;
@@ -204,7 +213,7 @@ section {
 }
 section.three-column {
   /*display: block;*/
-  padding: 30px 0;
+  padding: 50px 0;
   overflow: hidden;
   height: auto;
 }
@@ -227,5 +236,6 @@ section.three-column .col:after {
 }
 /* colors */
 .bg-color {
-  background-color: #D1E4EC;
+  /*background-color: #D1E4EC;*/
+  background-color: #F5FBFC;
 }
