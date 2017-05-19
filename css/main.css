@@ -2,16 +2,21 @@ body {
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: url(../images/robot.jpg) no-repeat center top fixed;
+  background: url('../images/MiroMatrix  Still 003.png') center top no-repeat fixed;
 }
 h1 {
-  font-size: 90px;
-  line-height: 74px;
-  text-transform: uppercase;
-  letter-spacing: -4px;
-  width: 380px;
+  color: #000000;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.325;
+  /*text-transform: uppercase;*/
+  letter-spacing: -.025em;
+  width: 50%;
   margin: 0;
-  padding: 0;
+}
+h1 .highlight {
+  /*background-color: rgba(2,191,231,.7);*/
+  background-color: rgba(255,255,255,.7);
 }
 h2 {
   font-weight: 700;
@@ -21,22 +26,54 @@ h2 {
   margin: 90px auto;
   padding: 0 10px;
 }
-h3 {
-  font-weight: 600;
+/*h1.eyebrow, h3 {
   font-size: 18px;
+  font-weight: 600;
+  line-height: 1.2;
   margin: 0;
+}*/
+/*header h1.eyebrow {
+  font-size: 30px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 218px 0 36px 0;
+}*/
+header {
+  position: relative;
+}
+header .logo {
+  height: 40px;
+  padding: 30px 0 60px;
+}
+/*.hero .content {
+  background-color: rgba(255,255,255,.6);
+  position: absolute;
+  bottom: 0;
+  padding: 30px 40px 60px 40px;
+  width: 300px;
+  display: block;
+}*/
+.hero .content .button {
+  padding: 10px 25px 10px 20px;
+  font: 600 1.25em/1.2 'Work Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #fdb81e;
+  border: 2px solid #fdb81e;
+  display: inline-block;
+  text-align: center;
+  /*border-radius: 36px;*/
+  margin: 20px 0;
+}
+.hero .content .button .subtext {
+  display: block;
+  font: 400 .675em 'Overpass Mono', monospace;
+  /*text-transform: uppercase;*/
 }
 p {
   font-size: 14px;
   margin: 0;
   padding: 0;
 }
-header h3 {
-  font-size: 30px;
-  font-weight: 300;
-  text-transform: uppercase;
-  padding: 218px 0 36px 0;
-}
+
 .program-info p {
   font-family: 'Playfair Display', Georgia, serif;
   font-style: italic;
@@ -110,11 +147,13 @@ address h3 {
   background: transparent url(../images/tile.gif) repeat;
 }
 .program-info {
-  background-color: #f33;
+  background-color: #D1E4EC;
+  /*background-color: #02bfe7;*/
   padding: 60px 0;
+  color: #184253;
 }
 header {
-  height: 600px;
+  height: 480px;
   width: 960px;
   margin: 0 auto;
 }
